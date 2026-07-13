@@ -1,0 +1,33 @@
+.category-items {
+    flex: 2;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-right: 2px solid purple;
+    overflow-y: auto;
+}
+
+.product-items {
+    flex: 10;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+.filter {
+    flex: 100%;
+    height: 70px;
+    padding: 20px;
+}
+
+button {
+    background-color: #ec7a1c;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: #ec7a1c;
+}

@@ -1,0 +1,16 @@
+.cart-list {
+    flex: 1; /* takes available space */
+    margin-right: 10px;
+    border-right: 2px solid purple;
+}
+
+.cart-summary {
+    flex: 0 0 20%; /* fixed 20% width */
+    min-width: 200px; /* optional safeguard */
+    overflow-y: auto;
+    max-height: calc(100vh - 140px);
+}
+
+h3 {
+    padding: 35px;
+}

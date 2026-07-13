@@ -1,0 +1,22 @@
+form div {
+    padding: 10px 0;
+}
+
+input {
+    transition: outline 0.2s ease-in-out;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #ec7a1c;
+}
+
+input:hover {
+    border: 2px solid #341349;
+}
+
+.login-form {
+    border: 5px solid #ec7a1c;
+    padding: 20px;
+    border-radius: 10px;
+}
